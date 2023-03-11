@@ -1,0 +1,17 @@
+.bgsections{
+    background: url("./bg.png") ;
+    background: cover;
+   
+}
+.btnhouveradmin{
+    background-color: white;
+    color: rgb(25, 25, 25);
+}
+.btnhouveradmin:hover{
+    background-color: #572B77;
+    color: white;
+}
+.moniteringpagelogin{
+    background-color: rgba(8, 8, 8, 0.105);
+    
+}
