@@ -9,7 +9,7 @@ const ManagementRegiseterUser = () => {
     <Header/>
     <Menu/>
     <AdminrregisterUser/>
-     
+    
     </div>
     </>
   )

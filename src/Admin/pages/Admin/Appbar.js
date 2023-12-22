@@ -6,6 +6,7 @@ import {GoReport} from 'react-icons/go'
 import {ImProfile} from 'react-icons/im'
 import {IoMdLogOut} from 'react-icons/io'
 import swal from 'sweetalert';
+import { FaCalendarAlt } from 'react-icons/fa';
 
 const Appbar = () => {
   const asktoconfirm=()=>{
@@ -147,6 +148,18 @@ const Appbar = () => {
 
               </li>
 
+              {/* **************************** event calender******************************* */}
+              <li className="nav-item has-treeview">
+                <NavLink to="/admin/Schedulerapp" className="nav-link">
+                <FaCalendarAlt className='nav-icon' />
+                  <p>
+                    Event calender
+
+                  </p>
+                </NavLink>
+
+              </li>
+ {/* **************************** event calender end******************************* */}
 
               <li className="nav-item has-treeview">
             <NavLink to="/Admin/Profilesetting" className="nav-link">

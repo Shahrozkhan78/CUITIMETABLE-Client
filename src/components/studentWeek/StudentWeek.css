@@ -1,0 +1,40 @@
+/* table th td {
+  border: 1px solid #ccc;
+} */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+table td.no-border,
+table th.no-border {
+  border: none;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.th-left-rounded {
+  border-top-left-radius: 10px; /* Adjust the radius value as needed */
+  border-bottom-left-radius: 10px; /* Adjust the radius value as needed */
+  min-width: 15%;
+  white-space: nowrap;
+  padding: 5px 10px;
+}
+
+.th-right-rounded {
+  border-top-right-radius: 10px; /* Adjust the radius value as needed */
+  border-bottom-right-radius: 10px; /* Adjust the radius value as needed */
+  min-width: 15%;
+  white-space: nowrap;
+  padding: 5px 10px;
+}

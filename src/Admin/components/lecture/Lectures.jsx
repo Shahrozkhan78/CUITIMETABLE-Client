@@ -92,7 +92,7 @@ const Lectures = () => {
       console.log(data)
       setFilterData(data)
       setDefaultdata(data)
-     setvisibleloading(false)
+      setvisibleloading(false)
     
       
     }

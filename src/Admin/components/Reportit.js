@@ -734,7 +734,7 @@ if(value==4){
                        
                           <div className=" col d-flex  ">
                                <div className='d-flex align-items-center  '>
-                                <p className='w-50 m-2'>Select Day</p>
+                                <p className='w-50 m-2'>Start Date</p>
                                 <div>
                                      <input type={"date"}  ref={exampleInput} hintText="Date" className="p-2 border rounded w-100" placeholder="Select date" onChange={(e)=>{
                                       setbeforedate(e.target.value)
@@ -748,7 +748,7 @@ if(value==4){
                                
                                </div>
                                <div className='d-flex align-items-center  '>
-                                <p className='w-50 m-2'>Select Day</p>
+                                <p className='w-50 m-2'>Date</p>
                                 <div>
                                      <input type={"date"}  ref={exampleInput} hintText="Date" className="p-2 border rounded w-100" placeholder="Select date" onChange={(e)=>{
                                       setenddate(e.target.value)
